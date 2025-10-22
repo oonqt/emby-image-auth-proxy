@@ -14,7 +14,7 @@ This service will sit in between users and Emby, acting as a proxy. Normal reque
 services:
   emby-image-auth-proxy:
     container_name: emby-image-auth-proxy
-    image: ghcr.io/oonqt/emby-image-auth-proxy:latest
+    image: ghcr.io/oonqt/embyimageauthproxy:latest
     restart: unless-stopped
     environment:
       -  EMBY_BASE_URL=http://embyserver:8096
